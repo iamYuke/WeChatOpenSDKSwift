@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.name         = "WeChatOpenSDKSwift"
+  spec.name         = "WeChatOpenSDKSwiftYuke"
   spec.version      = "1.8.9"
   spec.summary      = "WeChatOpenSDK，微信开放平台SDK封装成的Swift版本"
 
@@ -63,6 +63,14 @@ Pod::Spec.new do |spec|
     s.vendored_frameworks = 'Vendor/NoPay/armx86/WechatOpenSDK.framework'
 
   end
+
+
+  # Xcode12的里面因为有arm的模拟器到会有问题podspec 的 pod lib lint 验证不通过
+
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
 
