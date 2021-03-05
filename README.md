@@ -2,15 +2,13 @@
 
 微信官方SDK封装成的Swift版本,方便在Swift项目中直接使用
 
-CI Status Version License Platform
-
 
 # 安装
 
 支持通过CocoaPods进行安装，在Podfile中添加如下代码
 
 ```
- pod "WeChatOpenSDKSwift"
+pod "WeChatOpenSDKSwift"
 
 ```
 
@@ -20,26 +18,20 @@ CI Status Version License Platform
 - 如果只使用真机的带支付SDK
 
 ```
-	
-	pod "WeChatOpenSDKSwift", :subspecs => ['ARM']
-
+pod "WeChatOpenSDKSwift", :subspecs => ['ARM']
 ```
 
 - 不带支付的版本（x86与arm框架）
 
 ```
-
-	pod "WeChatOpenSDKSwift", :subspecs => ['NOPAY']
-
+pod "WeChatOpenSDKSwift", :subspecs => ['NOPAY']
 ```
 
 - 不待支付版本（arm框架）
 
 
 ```
-
-	pod "WeChatOpenSDKSwift", :subspecs => ['NOPAY_ARM']
-
+pod "WeChatOpenSDKSwift", :subspecs => ['NOPAY_ARM']
 ```
 
 
@@ -48,8 +40,7 @@ CI Status Version License Platform
 克隆下来项目，cd 到Podfile的文件目录，执行pod install 
 
 ```
-
- import WechatOpenSDK 
+import WechatOpenSDK 
 
 ```
  导入SDK库，然后直接使用即可
