@@ -10,7 +10,9 @@ Pod::Spec.new do |spec|
 
 
   spec.description  = <<-DESC 
-                   Swift版本的微信SDK，支持多版本引用
+                   Swift版本的微信SDK，支持多版本引用。
+                   可以选择性使用构建版本，减小引入的库的大小。
+                   具体使用方法，详见README.md
 
 
                    DESC
@@ -24,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Yuke" => "iamyukezhang@foxmail.com" }
  
 
-  spec.source       = { :git => "https://github.com/iamYuke/WeChatOpenSDKSwift", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/iamYuke/WeChatOpenSDKSwift.git", :tag => "#{spec.version}" }
 
   spec.platform     = :ios, "10.0"
 
