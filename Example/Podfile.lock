@@ -1,0 +1,16 @@
+PODS:
+  - WeChatOpenSDKSwift/NOPAY (1.8.9)
+
+DEPENDENCIES:
+  - WeChatOpenSDKSwift/NOPAY (from `../`)
+
+EXTERNAL SOURCES:
+  WeChatOpenSDKSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WeChatOpenSDKSwift: 05e053a5185bed0973e191e40db53f34ed3bb368
+
+PODFILE CHECKSUM: bc5d46afbe56f04509d4c7e6e7b7e6e9159a733a
+
+COCOAPODS: 1.10.1
