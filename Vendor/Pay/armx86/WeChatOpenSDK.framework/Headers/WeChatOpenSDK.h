@@ -2,7 +2,7 @@
 //  WeChatOpenSDK.h
 //  WeChatOpenSDK
 //
-//  Created by Yuke on 2021/3/4.
+//  Created by Yuke on 2022/9/9.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,7 +15,7 @@ FOUNDATION_EXPORT const unsigned char WeChatOpenSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <WeChatOpenSDK/PublicHeader.h>
 
-
 #import <WeChatOpenSDK/WXApi.h>
 #import <WeChatOpenSDK/WechatAuthSDK.h>
 #import <WeChatOpenSDK/WXApiObject.h>
+

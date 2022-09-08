@@ -27,7 +27,7 @@ pod "WeChatOpenSDKSwift", :subspecs => ['ARM']
 pod "WeChatOpenSDKSwift", :subspecs => ['NOPAY']
 ```
 
-- 不待支付版本（arm框架）
+- 不带支付版本（arm框架）
 
 
 ```

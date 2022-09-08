@@ -1,16 +1,6 @@
-//
-//  WeChatOpenSDK.modulemap
-//  WeChatOpenSDK
-//
-//  Created by Yuke on 2021/3/4.
-//
-
 framework module WeChatOpenSDK {
   umbrella header "WeChatOpenSDK.h"
 
   export *
   module * { export * }
 }
-
-
-

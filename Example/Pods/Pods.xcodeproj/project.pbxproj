@@ -19,13 +19,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0C25EE8D3701FFED90DDC4591FCA4D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3803ADA2EFEBC96FF21F09A01411016A /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F136FFE8A9F77E570AF1D4CFBD7CF333 /* Pods-Example-dummy.m */; };
-		388E5D091F23CAB176BF21F73AF3CC16 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26EC3A56CC4AB6876A51526A56D550E /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5870720424F755F0C030BC172DE3064C /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26EC3A56CC4AB6876A51526A56D550E /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8649DCCAD429A60554E7B74743113872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DC9913758E8C58EEBF16CB6C316F039F /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F136FFE8A9F77E570AF1D4CFBD7CF333 /* Pods-Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8CBE3F0B9E2F1F507BC28A20DBF1E4DC /* PBXContainerItemProxy */ = {
+		A2425EAFBFDFEE790C754B7EE5974AE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,54 +35,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B15CC26A7DBE97B8C4D2E605CD726D0 /* WeChatOpenSDKSwiftYuke.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WeChatOpenSDKSwiftYuke.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B509324E0DDBFAF6F9BDEE03557A200 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D757AE85A3073A30D42275D60D7463B /* WeChatOpenSDKSwiftYuke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeChatOpenSDKSwiftYuke.debug.xcconfig; sourceTree = "<group>"; };
-		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34B5F86156FA13124D52E6F3915BF909 /* WeChatOpenSDKSwiftYuke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeChatOpenSDKSwiftYuke.release.xcconfig; sourceTree = "<group>"; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4460D72F93614FE06CA08EE25413C7 /* WeChatOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeChatOpenSDK.framework; path = Vendor/Pay/armx86/WeChatOpenSDK.framework; sourceTree = "<group>"; };
 		37E86C8334F06C336630A870A0B2E62F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6A5BCFDC8A0BFCCF78D79352ECBE4D05 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F4E04EEC10D0F082520575E7B9F4091 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8DDDB73093D394B88050C1F803434CC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26EC3A56CC4AB6876A51526A56D550E /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		A38A5498DFA72D80A29954DFC52440DA /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		AB3F9F271100CFD4699EDF4BC2DF784F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B9742C35442E9FBAEFCA1A40B125CA07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C579B1E36BD20C0392C66AEEF2035F7B /* WeChatOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeChatOpenSDK.framework; path = Vendor/NoPay/armx86/WeChatOpenSDK.framework; sourceTree = "<group>"; };
-		DF56C8C0938678291DFB7633D034F4F4 /* WeChatOpenSDKSwiftYuke.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WeChatOpenSDKSwiftYuke.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB93A307EDE11F285ECA1CC1B7B457E7 /* WeChatOpenSDKSwiftYuke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeChatOpenSDKSwiftYuke.debug.xcconfig; sourceTree = "<group>"; };
 		F136FFE8A9F77E570AF1D4CFBD7CF333 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		F6DFA99DC01ECBD1B15702F1B1072C87 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		F963DF9B846E650A2EC93A77008FD65C /* WeChatOpenSDKSwiftYuke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeChatOpenSDKSwiftYuke.release.xcconfig; sourceTree = "<group>"; };
 		FBD7B424DDE770E7C3C54A67A1E95C3C /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BE9C59387180D43F2AB1C637C0A24E3 /* Frameworks */ = {
+		8BEB2E7D727391318C05279F3D56F7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C25EE8D3701FFED90DDC4591FCA4D64 /* Foundation.framework in Frameworks */,
+				8649DCCAD429A60554E7B74743113872 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19A994FCCB6F9715620D345CDD225077 /* WeChatOpenSDKSwiftYuke */ = {
+		126BE02270CB3C566E09A25E8A704634 /* WeChatOpenSDKSwiftYuke */ = {
 			isa = PBXGroup;
 			children = (
-				2EF9E883FBB233D029C0D41842614D89 /* NOPAY */,
-				6BE6563BF7D3DF60FE50827CD50E5FA5 /* Pod */,
-				85FD3B673ED4E8AE25C47B385CC176F6 /* Support Files */,
+				AB5D8838473CB180C6CFF9163AF73E90 /* Core */,
+				4E470E76D52713E2DF555B98BEF331CB /* Pod */,
+				46E87FEF09563A7F7AEDE3F9F0786AAB /* Support Files */,
 			);
 			name = WeChatOpenSDKSwiftYuke;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2EF9E883FBB233D029C0D41842614D89 /* NOPAY */ = {
+		46E87FEF09563A7F7AEDE3F9F0786AAB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EFB1E7F6DCD9286DBB3A5A1FC8E839A /* Frameworks */,
+				AB93A307EDE11F285ECA1CC1B7B457E7 /* WeChatOpenSDKSwiftYuke.debug.xcconfig */,
+				F963DF9B846E650A2EC93A77008FD65C /* WeChatOpenSDKSwiftYuke.release.xcconfig */,
 			);
-			name = NOPAY;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WeChatOpenSDKSwiftYuke";
 			sourceTree = "<group>";
 		};
 		49D89C83FB6D80909E7AB878478AEF24 /* Pods-Example */ = {
@@ -101,6 +103,24 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
+		4E470E76D52713E2DF555B98BEF331CB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E04EEC10D0F082520575E7B9F4091 /* LICENSE */,
+				8DDDB73093D394B88050C1F803434CC1 /* README.md */,
+				1B15CC26A7DBE97B8C4D2E605CD726D0 /* WeChatOpenSDKSwiftYuke.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		57154274EC146FE9C98743DB36E52A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,32 +137,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6BE6563BF7D3DF60FE50827CD50E5FA5 /* Pod */ = {
+		AB5D8838473CB180C6CFF9163AF73E90 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B9742C35442E9FBAEFCA1A40B125CA07 /* LICENSE */,
-				AB3F9F271100CFD4699EDF4BC2DF784F /* README.md */,
-				DF56C8C0938678291DFB7633D034F4F4 /* WeChatOpenSDKSwiftYuke.podspec */,
+				FF137F965CECAB0C7F2637C7505FBFAF /* Frameworks */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		85FD3B673ED4E8AE25C47B385CC176F6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1D757AE85A3073A30D42275D60D7463B /* WeChatOpenSDKSwiftYuke.debug.xcconfig */,
-				34B5F86156FA13124D52E6F3915BF909 /* WeChatOpenSDKSwiftYuke.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WeChatOpenSDKSwiftYuke";
-			sourceTree = "<group>";
-		};
-		8EFB1E7F6DCD9286DBB3A5A1FC8E839A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C579B1E36BD20C0392C66AEEF2035F7B /* WeChatOpenSDK.framework */,
-			);
-			name = Frameworks;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -151,7 +151,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E7E10CA73BCB3A468A19D4132DE17191 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F3FF89D6E7299BC19CC5D532AB71AAAA /* Products */,
+				57154274EC146FE9C98743DB36E52A70 /* Products */,
 				6175F76A709D89A745234C5440684C67 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -167,27 +167,27 @@
 		E7E10CA73BCB3A468A19D4132DE17191 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				19A994FCCB6F9715620D345CDD225077 /* WeChatOpenSDKSwiftYuke */,
+				126BE02270CB3C566E09A25E8A704634 /* WeChatOpenSDKSwiftYuke */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F3FF89D6E7299BC19CC5D532AB71AAAA /* Products */ = {
+		FF137F965CECAB0C7F2637C7505FBFAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
+				2D4460D72F93614FE06CA08EE25413C7 /* WeChatOpenSDK.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		275B511756A2CE5E735F3A59FA2BDB55 /* Headers */ = {
+		CAC05ECE5697A236175FBD61F9EB7225 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388E5D091F23CAB176BF21F73AF3CC16 /* Pods-Example-umbrella.h in Headers */,
+				5870720424F755F0C030BC172DE3064C /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,21 +196,21 @@
 /* Begin PBXNativeTarget section */
 		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E046AB2E55529CE569414FE95EEC53AD /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = 7BB3EB80E4CA32EBD5E6A7FA20F543BC /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				275B511756A2CE5E735F3A59FA2BDB55 /* Headers */,
-				E8B040509BDBACE59DA9842ACD5A6F6C /* Sources */,
-				3BE9C59387180D43F2AB1C637C0A24E3 /* Frameworks */,
-				752684974D0E9F95EA6507F553EB8994 /* Resources */,
+				CAC05ECE5697A236175FBD61F9EB7225 /* Headers */,
+				78F82EFA00D4038AB335195E317ABA9D /* Sources */,
+				8BEB2E7D727391318C05279F3D56F7D7 /* Frameworks */,
+				8D53BC3F620E82282393B1F35F033049 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D4CBB89020FE0621ADA359BA369491C /* PBXTargetDependency */,
+				4ABA626E7466C75B34A92A3BB8E577E5 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
-			productName = "Pods-Example";
-			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */;
+			productName = Pods_Example;
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -219,19 +219,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F3FF89D6E7299BC19CC5D532AB71AAAA /* Products */;
+			productRefGroup = 57154274EC146FE9C98743DB36E52A70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -242,7 +242,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		752684974D0E9F95EA6507F553EB8994 /* Resources */ = {
+		8D53BC3F620E82282393B1F35F033049 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,45 +252,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E8B040509BDBACE59DA9842ACD5A6F6C /* Sources */ = {
+		78F82EFA00D4038AB335195E317ABA9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3803ADA2EFEBC96FF21F09A01411016A /* Pods-Example-dummy.m in Sources */,
+				DC9913758E8C58EEBF16CB6C316F039F /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D4CBB89020FE0621ADA359BA369491C /* PBXTargetDependency */ = {
+		4ABA626E7466C75B34A92A3BB8E577E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WeChatOpenSDKSwiftYuke;
 			target = 76ACAB633857760853A772F01B937A0D /* WeChatOpenSDKSwiftYuke */;
-			targetProxy = 8CBE3F0B9E2F1F507BC28A20DBF1E4DC /* PBXContainerItemProxy */;
+			targetProxy = A2425EAFBFDFEE790C754B7EE5974AE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3EE6424B0F70961DCBD653DC4D30965F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34B5F86156FA13124D52E6F3915BF909 /* WeChatOpenSDKSwiftYuke.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5B755F8884572254F0E2A2D6D4F66250 /* Debug */ = {
+		24ACF8AE5B7A7B759F9CB52264B6C303 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37E86C8334F06C336630A870A0B2E62F /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
@@ -326,6 +308,24 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3EE6424B0F70961DCBD653DC4D30965F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F963DF9B846E650A2EC93A77008FD65C /* WeChatOpenSDKSwiftYuke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -389,7 +389,24 @@
 			};
 			name = Release;
 		};
-		8DDF043B77076B226ADA1E13293766D6 /* Release */ = {
+		96A4BEBD805268F6F91FA91A51E5E299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB93A307EDE11F285ECA1CC1B7B457E7 /* WeChatOpenSDKSwiftYuke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B59B645A50B250EAD78C43FC2E1740D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6DFA99DC01ECBD1B15702F1B1072C87 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
@@ -426,23 +443,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		96A4BEBD805268F6F91FA91A51E5E299 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D757AE85A3073A30D42275D60D7463B /* WeChatOpenSDKSwiftYuke.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -522,11 +522,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E046AB2E55529CE569414FE95EEC53AD /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		7BB3EB80E4CA32EBD5E6A7FA20F543BC /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B755F8884572254F0E2A2D6D4F66250 /* Debug */,
-				8DDF043B77076B226ADA1E13293766D6 /* Release */,
+				24ACF8AE5B7A7B759F9CB52264B6C303 /* Debug */,
+				B59B645A50B250EAD78C43FC2E1740D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

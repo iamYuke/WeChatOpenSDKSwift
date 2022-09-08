@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "WeChatOpenSDKSwiftYuke"
-  spec.version      = "1.8.9"
+  spec.version      = "1.9.6"
   spec.summary      = "WeChatOpenSDK，微信开放平台SDK封装成的Swift版本"
 
 
